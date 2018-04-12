@@ -15,6 +15,7 @@ cd ..
 
 #or call bs/DEPNAME.sh one by one
 #it will build deps in gcc/deps-build and install to gcc/deps-install
+#for example bs/xersec.sh if it is not installed on your machine(needed by Geant4)
 
 #get geantv
 ./get_geantV.sh
@@ -24,5 +25,5 @@ cd ..
 #or ./bs/geantV.sh BRANCHNAME DIRNAME to generate build scripts in gcc/DIRNAME
 
 #Env ready, it is easy to go from here
-cd gcc/geant
+cd gcc/geant/build
 make

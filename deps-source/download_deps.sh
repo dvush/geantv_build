@@ -12,3 +12,8 @@ git clone https://gitlab.cern.ch/hepmc/HepMC3.git
 wget 'http://cern.ch/geant4-data/releases/geant4.10.04.p01.tar.gz'
 tar xf geant4.10.04.p01.tar.gz
 mv geant4.10.04.p01 geant4
+
+#for geant4. only use if xerces is not installed in you machine
+wget http://www.apache.org/dist/xerces/c/3/sources/xerces-c-3.2.1.tar.gz
+tar xf xerces-c-3.2.1.tar.gz
+mv xerces-c{-3.2.1,}
