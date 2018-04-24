@@ -21,3 +21,5 @@ mv xerces-c{-3.2.1,}
 git clone https://github.com/google/benchmark.git
 git clone https://github.com/google/googletest.git benchmark/googletest
 $(cd benchmark/googletest && git checkout -b release-1.8.0-b release-1.8.0) #gtest fail workaroung
+
+git clone https://gitlab.cern.ch/GeantV/VecCoreLib.git

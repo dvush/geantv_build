@@ -5,4 +5,6 @@ SCRIPTS_DIR=`dirname $0`
 ./$SCRIPTS_DIR/vc.sh
 ./$SCRIPTS_DIR/vecgeom.sh
 ./$SCRIPTS_DIR/hepmc.sh
+./$SCRIPTS_DIR/xersec.sh
 ./$SCRIPTS_DIR/geant4.sh
+./$SCRIPTS_DIR/veccorelib.sh
