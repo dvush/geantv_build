@@ -1,4 +1,4 @@
-git clone http://root.cern.ch/git/root.git --depth 1
+git clone http://root.cern.ch/git/root.git --depth 1 --branch v6-12-06
 
 git clone https://github.com/VcDevel/Vc.git && $(cd Vc && git checkout -b 1.3.3 1.3.3)
 
